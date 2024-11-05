@@ -1,0 +1,56 @@
+.search-container {
+    display: flex;
+    /* Align input and button in a row */
+    justify-content: center;
+    /* Center the items horizontally */
+    margin: 20px;
+    /* Add some margin around the container */
+}
+
+.search-input {
+    padding: 10px;
+    /* Add padding inside the input */
+    border: 2px solid #4CAF50;
+    /* Set a solid border */
+    border-radius: 5px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Increase font size for readability */
+    width: 200px;
+    /* Set a fixed width */
+    transition: border-color 0.3s;
+    /* Smooth transition for border color */
+}
+
+.search-input:focus {
+    border-color: #2E7D32;
+    /* Change border color on focus */
+    outline: none;
+    /* Remove default outline */
+}
+
+.search-button {
+    padding: 10px 15px;
+    /* Add padding inside the button */
+    background-color: #4CAF50;
+    /* Green background */
+    color: white;
+    /* White text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    margin-left: 10px;
+    /* Space between input and button */
+    font-size: 16px;
+    /* Increase font size */
+    transition: background-color 0.3s;
+    /* Smooth transition for background color */
+}
+
+.search-button:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}
